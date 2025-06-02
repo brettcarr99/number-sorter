@@ -49,7 +49,7 @@ def sort_numbers(numbers: List[float]) -> List[float]:
     Returns:
         Sorted list of numbers
     """
-    return sorted(number)
+    return sorted(numbers)
 
 
 def write_numbers_to_file(numbers: List[float], filename: str) -> None:
